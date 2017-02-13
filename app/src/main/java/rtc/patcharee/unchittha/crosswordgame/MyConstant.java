@@ -113,6 +113,8 @@ public class MyConstant {
         vocapStrings[97][0] = "coin";
         vocapStrings[98][0] = "dead";
         vocapStrings[99][0] = "rose";
+
+
         vocapStrings[0][1] = "lake";
         vocapStrings[1][1] = "deer";
         vocapStrings[2][1] = "cock";

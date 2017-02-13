@@ -1,9 +1,7 @@
 package rtc.patcharee.unchittha.crosswordgame;
 
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -103,6 +101,8 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
 
                 answerStrings[0] = strings[0] + strings[2] + strings[5] + strings[6] ;
                 answerStrings[1] = strings[1] + strings[2] + strings[3] + strings[4] ;
+                Log.d("9febV1", "answerString[0] ==> " + answerStrings[0]);
+                Log.d("9febV1", "answerString[1] ==> " + answerStrings[1]);
 
                 Log.d(tag, "answer1 ==> " + answerStrings[0]);
                 Log.d(tag, "answer2 ==> " + answerStrings[1]);
@@ -111,11 +111,13 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
                     Log.d(tag, "answer1 true");
                     booleen[0] = true;
                 }
+                Log.d("9febV1", "booleen[0] ==> " + booleen[0]);
 
                 if (answerStrings[1].equals(vocapStrings[timesAnInt][1])) {
                     Log.d(tag, "answer2 true");
                     booleen[1] = true;
                 }
+                Log.d("9febV1", "booleen[1] ==> " + booleen[1]);
 
                 if (booleen[0] && booleen[1]) {
                     //Bingo OK
@@ -124,6 +126,9 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
                     Log.d(tag, "timeAnInt ==> " + timesAnInt);
                     clearEdittext();
                     levelTextView.setText("Level = " + Integer.toString(timesAnInt + 1));
+
+                    wordTextView.setText(wordStrings[timesAnInt][0]);
+
                     int[] ints = new int[]{R.drawable.game1, R.drawable.game1, R.drawable.game1, R.drawable.game1,
                             R.drawable.game1, R.drawable.game1, R.drawable.game1, R.drawable.game1,
                             R.drawable.game1, R.drawable.game1, R.drawable.game1, R.drawable.game1,
@@ -152,6 +157,9 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
                         relativeLayout.setBackground(getResources().getDrawable(ints[timesAnInt]));
                     }
+
+                    booleen[0] = false;
+                    booleen[1] = false;
 
 
                 } else {
