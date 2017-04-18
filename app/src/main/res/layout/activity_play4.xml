@@ -8,6 +8,518 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rtc.patcharee.unchittha.crosswordgame.Play4Activity">
+    tools:context="rtc.patcharee.unchittha.crosswordgame.Play4Activity"
+    android:background="@drawable/levell3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt1"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="52dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt2"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="52dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt3"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="111dp"
+            android:layout_marginLeft="51dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt4"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt5"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="18dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt6"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="81dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt7"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="114dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt8"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="144dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt9"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt10"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt11"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginLeft="180dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt12"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt13"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="179dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt14"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="212dp"
+            android:layout_marginLeft="176dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt15"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt16"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="281dp"
+            android:layout_marginLeft="180dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt17"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="315dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt18"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginLeft="178dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt19"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginLeft="144dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt20"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginLeft="210dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt21"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="348dp"
+            android:layout_marginLeft="245dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt22"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginLeft="274dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt23"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="247dp"
+            android:layout_marginLeft="245dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt24"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="243dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt25"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="312dp"
+            android:layout_marginLeft="243dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt26"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="274dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt27"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="307dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt28"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="81dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt29"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="114dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt30"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginLeft="147dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt31"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="147dp"
+            android:layout_marginLeft="114dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt32"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="114dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt33"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="212dp"
+            android:layout_marginLeft="114dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt34"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="144dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt35"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="210dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt36"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="245dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt37"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="274dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt38"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="179dp"
+            android:layout_marginLeft="307dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt39"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginLeft="274dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt40"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginLeft="274dp"
+            android:background="@android:color/transparent" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:maxLength="1"
+            android:id="@+id/bt41"
+            android:textSize="20sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="275dp"
+            android:background="@android:color/transparent" />
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:text="ANSWER"
+        android:layout_height="50dp"
+        android:id="@+id/button6"
+        android:fontFamily="monospace"
+        android:textSize="22sp"
+        android:layout_width="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
